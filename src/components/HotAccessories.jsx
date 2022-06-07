@@ -1,12 +1,12 @@
 import React from "react";
 import HotItemCard from "./HotItemCard";
-import "../styles/HotAccessories.css"
+import "../styles/HotAccessories.css";
 
 const HotAccessories = ({ category, categoryCover }) => {
   return (
     <div className="hot-accessories">
       <div>
-        <img src={categoryCover} alt="Cover" />
+        <img src={categoryCover} alt="Cover" height="100%" />
       </div>
       <div>
         {category.map((item, index) => {

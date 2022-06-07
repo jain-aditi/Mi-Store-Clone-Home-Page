@@ -1,6 +1,6 @@
 .video-card {
   width: 30vmax;
-  height: 48vh;
+  height: 24vmax;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 
-.video-card > a {
+.video-card > button {
   padding: 2.5vmax;
   transition: all 0.2s linear;
   border: none;
@@ -19,12 +19,12 @@
   background-color: rgba(255, 255, 255, 0.096);
 }
 
-.video-card > a > svg {
+.video-card > button > svg {
     fill:rgb(255, 255, 255);
 
 }
 
-.video-card:hover a{
+.video-card:hover button{
     background-color: rgba(255, 255, 255, 0.671);
 }
 

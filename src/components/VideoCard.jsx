@@ -9,8 +9,8 @@ const playButton = (
 
 const VideoCard = ({ name, image }) => {
   return (
-    <div className="video-card" style={{ backgroundImage: `url(${image})` }}>
-      <a href="#">{playButton}</a>
+    <div className="video-card" style={{ backgroundImage: `url(${image})`}}>
+      <button>{playButton}</button>
       <p>{name}</p>
     </div>
   );

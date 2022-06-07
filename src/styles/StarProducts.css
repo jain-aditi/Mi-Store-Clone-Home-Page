@@ -6,7 +6,9 @@
 }
 
 .starProduct img{
+    
     transition: all 0.5s;
+    
 }
 
 .starProduct img:hover{

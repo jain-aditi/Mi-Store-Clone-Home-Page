@@ -141,7 +141,7 @@ const serviceNetworkIcon = (
 
 const Footer = ({ footer }) => {
   return (
-    <>
+    <div className="footer-outer">
       <div className="pre-footer">
         <div>
           {replaceIcon}
@@ -170,29 +170,33 @@ const Footer = ({ footer }) => {
       </div>
       <div className="pre-footer-2">
         <div>
-          <p> LET'S STAY IN TOUCH </p>
-          <span> Get updates on sales specials and more </span>
+          <div>
+            <p> LET'S STAY IN TOUCH </p>
+            <span> Get updates on sales specials and more </span>
+          </div>
+          <div>
+            <div className="email-block">
+              <input
+                type=" email "
+                name=" email "
+                placeholder=" Enter Email Address "
+              />
+              <span>{">"} </span>
+            </div>
+            <span> Thanks. You're on our email list for special offers. </span>
+          </div>
         </div>
         <div>
           <div>
-            <input
-              type=" email "
-              name=" email "
-              placeholder=" Enter Email Address "
-            />
-            <span>{">"} </span>
+            <p> FOLLOW MI </p>
+            <span> We want to hear from you ! </span>
           </div>
-          <span> Thanks. You're on our email list for special offers. </span>
-        </div>
-        <div>
-          <p> FOLLOW MI </p>
-          <span> We want to hear from you ! </span>
-        </div>
-        <div>
-          {facebookIcon}
-          {youtubeIcon}
-          {instagramIcon}
-          {twitterIcon}
+          <div>
+            {facebookIcon}
+            {youtubeIcon}
+            {instagramIcon}
+            {twitterIcon}
+          </div>
         </div>
       </div>
       <div className="footer">
@@ -254,7 +258,7 @@ const Footer = ({ footer }) => {
       <div className=" footerBorder ">
         <div>Copyright © 2010 - 2022 Xiaomi. All Rights Reserved</div>
       </div>
-    </>
+    </div>
   );
 };
 

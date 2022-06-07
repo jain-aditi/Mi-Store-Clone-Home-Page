@@ -1,10 +1,16 @@
 .offer-section {
+  /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1vmax;
 }
 
+.offer{
+  width: 30%;
+  margin: 0 1vmax;
+
+}
 .offer-section img {
   margin: 0 1vmax;
   transition: all 0.5s;

@@ -7,10 +7,10 @@ const InThePress = ({ end }) => {
       <Carousel fade>
         {end.map((item) => {
           return (
-            <Carousel.Item key={item.image} interval={1000} keyboard={true}>
+            <Carousel.Item key={item.image} interval={1000} keyboard="true">
               <img className="d-block w-100" src={item.image} alt="End banner" />
               <Carousel.Caption>
-                <h3>{item.name}</h3>
+                <h3 >{item.name}</h3>
                 <p>{item.description}</p>
                 <p>{item.source}</p>
                 <u>Read More</u>
