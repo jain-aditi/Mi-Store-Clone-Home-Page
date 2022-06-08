@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/VideoCard.css";
+import "./VideoCard.css";
 
 const playButton = (
   <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">

@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/NavCard.css";
+import "./NavCard.css";
 
 const NavCard = ({name, price, image}) => {
   return (

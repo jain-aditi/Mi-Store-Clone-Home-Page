@@ -1,6 +1,6 @@
 import React from 'react'
 import VideoCard from './VideoCard';
-import "../styles/Videos.css"
+import "./Videos.css"
 
 const Videos = ({videos}) => {
   return (

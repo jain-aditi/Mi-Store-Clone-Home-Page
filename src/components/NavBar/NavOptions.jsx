@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import NavCard from "./NavCard";
-import "../styles/NavOptions.css";
+import "./NavOptions.css";
 
 const NavOptions = ({
   miPhones,

@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/PreFooter.css";
-import "../styles/Footer.css";
+import "./PreFooter.css";
+import "./Footer.css";
 
 const youtubeIcon = (
   <svg

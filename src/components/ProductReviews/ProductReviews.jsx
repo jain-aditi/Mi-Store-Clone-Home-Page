@@ -1,6 +1,6 @@
 import React from 'react'
 import ProductReviewCard from './ProductReviewCard';
-import "../styles/ProductReviews.css"
+import "./ProductReviews.css"
 
 const ProductReviews = ({productReviews}) => {
   return (

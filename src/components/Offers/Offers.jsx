@@ -1,6 +1,6 @@
 import React from "react";
 import Offer from "./Offer";
-import "../styles/Offers.css"
+import "./Offers.css"
 
 const Offers = ({ offers }) => {
   return (

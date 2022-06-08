@@ -1,6 +1,6 @@
 import React from "react";
-import  logo  from "../data/data.json";
-import "../styles/Nav.css"
+import logo from "../../data/data.json";
+import "./Nav.css";
 
 const searchIcon = (
   <svg
@@ -52,7 +52,7 @@ const Navbar = () => {
       <div className="searchbox">
         <input type="text" name="search" placeholder="Search Products" />
         {searchIcon}
-      </div> 
+      </div>
     </div>
   );
 };

@@ -1,20 +1,20 @@
 import React from "react";
-import PreNavbar from "./components/PreNavbar";
-import "./App.css";
-import Navbar from "./components/Navbar";
-import Slider from "./components/Slider";
-import data from "./data/data.json";
-import Offers from "./components/Offers";
-import Heading from "./components/Heading";
-import StarProducts from "./components/StarProducts";
-import HotAccessoriesMenu from "./components/HotAccessoriesMenu";
+import PreNavbar from "./components/PreNavBar/PreNavbar";
+import Navbar from "./components/NavBar/Navbar";
+import Slider from "./components/Slider/Slider";
+import Offers from "./components/Offers/Offers";
+import Heading from "./components/Heading/Heading";
+import StarProducts from "./components/StarProducts/StarProducts";
+import HotAccessoriesMenu from "./components/HotAccessories/HotAccessoriesMenu";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HotAccessories from "./components/HotAccessories";
-import ProductReviews from "./components/ProductReviews";
-import Videos from "./components/Videos";
-import InThePress from "./components/InThePress";
-import Footer from "./components/Footer";
-import NavOptions from "./components/NavOptions";
+import HotAccessories from "./components/HotAccessories/HotAccessories";
+import ProductReviews from "./components/ProductReviews/ProductReviews";
+import Videos from "./components/Videos/Videos";
+import InThePress from "./components/InThePress/InThePress";
+import Footer from "./components/Footer/Footer";
+import NavOptions from "./components/NavBar/NavOptions";
+import data from "./data/data.json";
+import "./App.css";
 
 const App = () => {
   return (
