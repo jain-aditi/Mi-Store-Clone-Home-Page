@@ -1,6 +1,5 @@
 .hot-accessories {
   display: flex;
-  justify-content: center;
   width: 96vw;
   margin: 0.7vmax;
   overflow-x: scroll;
